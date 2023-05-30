@@ -110,6 +110,25 @@ img {
   font-weight: normal;
   color: #000;
 }
+.content-container {
+  padding: 40px 20px;
+}
+.content-container h1 {
+  color: #5e63b6;
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-container h3 {
+  font-size: 24px;
+  font-family: var(--default-font);
+}
+.content-container p {
+  font-family: var(--default-font);
+  font-size: 16px;
+}
+.content {
+  margin: 30px;
+}
 @media (max-width: 576px) {
   h1,
   h2 {
