@@ -121,6 +121,7 @@ img {
 .content-container h3 {
   font-size: 24px;
   font-family: var(--default-font);
+  line-height: 70px;
 }
 .content-container p {
   font-family: var(--default-font);
@@ -128,6 +129,15 @@ img {
 }
 .content {
   margin: 30px;
+}
+.email,
+.instagram {
+  color: #430f58;
+  font-size: 30px;
+}
+.instagram {
+  display: block;
+  margin: 0;
 }
 @media (max-width: 576px) {
   h1,
