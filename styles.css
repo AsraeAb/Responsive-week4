@@ -42,7 +42,23 @@ p {
   text-align: center;
   font-family: var(--default-font);
 }
-
+img {
+  border-radius: 5px;
+}
+.about-me {
+  padding: 40px 20px;
+}
+.about-me h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-me h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+.about-me-content {
+  margin: 30px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -107,6 +123,10 @@ p {
 
   img {
     display: none;
+  }
+  .about-me {
+    text-align: center;
+    padding: 0;
   }
   .project-section1-description {
     text-align: center;
