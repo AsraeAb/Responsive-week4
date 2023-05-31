@@ -136,6 +136,10 @@ img {
 .content {
   margin: 30px;
 }
+.project {
+  font-size: 35px;
+  font-weight: bold;
+}
 .email,
 .instagram {
   color: #430f58;
@@ -189,11 +193,24 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+  .project {
+    font-size: 20px;
+  }
   .first-link {
     display: flex;
   }
+  .email,
+  .instagram {
+    font-size: 20px;
+  }
+  .contact {
+    font-size: 13px;
+  }
   .about-paragraphs {
     display: flex;
+  }
+  h4 {
+    font-size: 32px;
   }
   footer .contact-box {
     padding: 30px;
